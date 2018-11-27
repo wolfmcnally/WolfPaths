@@ -1,0 +1,17 @@
+use_frameworks!
+
+platform :ios, '12.0'
+
+pod 'BezierKit', :path => '../../BezierKit'
+pod 'VectorBoolean', :path => '../../VectorBoolean'
+pod 'WolfGeometry', :path => '../../WolfGeometry'
+pod 'WolfNumerics', :path => '../../WolfNumerics'
+pod 'WolfFoundation', :path => '../../WolfFoundation'
+
+target 'WolfPaths_Example' do
+  pod 'WolfPaths', :path => '../'
+
+  target 'WolfPaths_Tests' do
+    inherit! :search_paths
+  end
+end
