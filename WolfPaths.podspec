@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
     s.name             = 'WolfPaths'
     s.version          = '0.1.0'
-    s.summary          = 'TODO: Summary'
+    s.summary          = 'Pure Swift bezier path manipulation, using Double as the primitive floating-point type instead of CGFloat. Based heavily on BezierKit by Holmes Futrell.'
 
     # s.description      = <<-DESC
     # TODO: Add long description of the pod here.
