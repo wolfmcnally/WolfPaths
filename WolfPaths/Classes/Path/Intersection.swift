@@ -9,8 +9,8 @@ import WolfGeometry
 import WolfNumerics
 
 public struct Intersection: Equatable, Comparable {
-    public let t1: Double
-    public let t2: Double
+    public let t1, t2: Double
+    
     public static func < (lhs: Intersection, rhs: Intersection) -> Bool {
         if lhs.t1 < rhs.t1 {
             return true

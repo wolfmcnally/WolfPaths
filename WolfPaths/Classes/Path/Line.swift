@@ -9,8 +9,7 @@ import WolfGeometry
 import WolfNumerics
 
 public struct Line: Curve {
-    public let p0: Point
-    public let p1: Point
+    public var p0, p1: Point
 
     public init(p0: Point, p1: Point) {
         self.p0 = p0

@@ -9,8 +9,7 @@ import WolfGeometry
 import WolfNumerics
 
 public struct BoundingBox: Equatable {
-    public let min: Point
-    public let max: Point
+    public var min, max: Point
 
     public var rect: Rect {
         return Rect(origin: min, size: size)

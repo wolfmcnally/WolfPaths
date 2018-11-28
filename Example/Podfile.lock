@@ -2,16 +2,16 @@ PODS:
   - BezierKit (0.1.12)
   - ExtensibleEnumeratedName (1.0.3)
   - VectorBoolean (0.2.0)
-  - WolfFoundation (1.0.2):
+  - WolfFoundation (1.0.3):
     - WolfNumerics
     - WolfPipe
     - WolfStrings
-  - WolfGeometry (1.0.1):
+  - WolfGeometry (2.0.1):
     - ExtensibleEnumeratedName
     - WolfFoundation
     - WolfNumerics
     - WolfStrings
-  - WolfNumerics (2.0.0)
+  - WolfNumerics (2.0.1)
   - WolfPaths (0.1.0):
     - BezierKit
     - VectorBoolean
@@ -54,10 +54,10 @@ SPEC CHECKSUMS:
   BezierKit: 1a45bf99780691d29e00248587bec51626dca68f
   ExtensibleEnumeratedName: c6caeb662f79105e7229a613f9043e8a7e15e642
   VectorBoolean: aabe6d2b8422c4bda50f7406137b4d85e97e04c2
-  WolfFoundation: 5e17889a6ece1475f1d901e71d860af9dd5d3aeb
-  WolfGeometry: 6d966c7a017805df1ea11dad77eb71bfe5af755e
-  WolfNumerics: bae55621165b9992c59e614959b9eea4f48142fd
-  WolfPaths: 7d38f0d754e767fbf5eba7eea4dda00d15185a01
+  WolfFoundation: c926831ef68d4795b5dc87016ce78ad051d03309
+  WolfGeometry: d9fef2a3a4f9eab308c9ac9d42223b3232ca98b3
+  WolfNumerics: b8da8b6bfd8fe20825c727a0a67f324e6f60e23c
+  WolfPaths: c4c4e46a63c5643b165a199af774f48726fb780e
   WolfPipe: 7ac686d6e3d4e960323c864c9e57a667cda7126c
   WolfStrings: df8b7406fe1c7fcd6efa1cddf5882647477d0677
 

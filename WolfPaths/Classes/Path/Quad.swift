@@ -10,9 +10,7 @@ import WolfNumerics
 import WolfPipe
 
 public struct Quad: Curve {
-    public let p0: Point
-    public let p1: Point
-    public let p2: Point
+    public var p0, p1, p2: Point
 
     public init(p0: Point, p1: Point, p2: Point) {
         self.p0 = p0

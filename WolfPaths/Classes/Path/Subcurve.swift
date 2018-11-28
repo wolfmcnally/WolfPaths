@@ -9,8 +9,7 @@ import WolfGeometry
 import WolfNumerics
 
 public struct Subcurve<C> where C: Curve {
-    public let t1: Double
-    public let t2: Double
+    public let t1, t2: Double
     public let curve: C
 
     init(curve: C) {

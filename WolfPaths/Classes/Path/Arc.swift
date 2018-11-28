@@ -9,11 +9,10 @@ import WolfGeometry
 import WolfNumerics
 
 public struct Arc: Equatable {
-    public let origin: Point
-    public let radius: Double
-    public let startAngle: Double // radians
-    public let endAngle: Double // radians
-    public let interval: Interval<Double> // represents t-values [0, 1] on curve
+    public var origin: Point
+    public var radius: Double
+    public var startAngle, endAngle: Double // radians
+    public var interval: Interval<Double> // represents t-values [0, 1] on curve
 
     public init(origin: Point, radius: Double, startAngle: Double, endAngle: Double, interval: Interval<Double> = .unit) {
         self.origin = origin
